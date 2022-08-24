@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  height: 100vh;
+  background-size: cover;
+  color: #000;
+  display: table;
+  background-position: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'tahoma'
+}
+.app{
+  min-height: 100%;
+  grid-template-columns: 1fr;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  background: #cdcdcd;
+  padding: 5px;
+  align-items: center;
+}
+.navbar p{
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+.navbar a {
+  width: 70px;
+  height: 25px;
+  background: blue;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 3px;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar a:hover{
+  color: blue;
+  background: #fff;
+}
+
+
+.main{
+  display: block;
+}
+
+ .top{
+  border: 1px solid transparent;
+  background-image: url('pixar.png');
+  background-position: 50%;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+
+}
+
+.top h3{
+  margin-top: 10%;
+  color: #000;
+}
+.bottom{
+  display: block;
+  background: #cdcdcd;
+  height: 33vh;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  grid-gap: 25px;
+  padding: 10px;
+}
+
+.elemets{
+  margin-top: 30px;
+  width: 300px;
+  height: 160px;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  grid-gap: 10px;
+}
+form{
+  display: flex;
+  grid-gap: 25px;
+  justify-content: center;
+}
+form input{
+   width: 400px;
+   height: 30px;
+   background-color: #fff;
+   border: none;
+   border-radius: 3px;
+   padding: 5px;
+   box-shadow: 6px 3px 30px gray;
+}
+
+form input:focus{
+  box-shadow: none;
+}
+
+form button{
+  width: 90px;
+  height: 30px;
+  background: blue;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 3px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+   box-shadow: 6px 3px 30px gray;
+}
+
+form button:hover{
+  color: blue;
+  background: #fff;
+   box-shadow: none;
+}

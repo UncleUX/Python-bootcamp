@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  position: relative;
+  background: rgb(235, 235, 235);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  padding: 5px;align-items: center;
+ 
+}
+.container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 3px solid red;
+  height: 30vh;
+  width: 100%;
+  color: #fff;
+  font-family: 'tahoma';
+}
+
+.container .top{
+  height: 100px;
+  flex-basis: 15%;
+  background: violet;
+  align-items: center;
+  
+}
+
+.container .main{
+  height: 100px;
+  width: 42%;
+  background: blue;
+}
+
+
+.container .foot{
+  height: 100px;
+   flex-basis: 42%;
+  align-items: flex-end;
+  background: red;
+  
+}

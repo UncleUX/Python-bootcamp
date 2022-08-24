@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+hr {
+  background: black !important;
+}
+body
+{
+  position: relative;
+  background: black;
+ 
+}
+
+.box{
+  position: relative;
+  margin-left: 30%;
+  margin-top: 10%;
+  height: 250px;
+  width: 600px;
+  background-color: #cdcdcd;
+  border: 3px solid #fff;
+}
+
+.blue{
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  background: rgb(166, 166, 233);
+  height: 220px;
+  width: 200px;
+  border: 5px solid #fff;
+}
+
+.orange{
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  background: orangered;
+  height: 220px;
+  width: 200px;
+  border: 5px solid #fff;
+}
+

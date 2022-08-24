@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+body
+{
+  background-image: url(thor\ -\ Copie.jpg);
+  background-size: cover;
+  color: #000;
+  display: table;
+  background-position: 50%;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.app{
+  display: block;
+  grid-template-columns: repeat(1fr);
+}
+h1{
+  position: relative;
+  top: 20%;
+  color: #000;
+  font-size: 105px;
+  margin-top: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.navbar{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(15, 14, 14);
+  color: #fff;
+  align-items: center;
+  font-size: 40px;
+  padding-left: 10%;
+  padding-right: 7%;
+}
+ .navbar .logo p{
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+ }
+
+ .navbar .logo p:hover{
+  color: violet;
+  text-transform: unset;
+ }
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.navbar ul a{
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s  ease-in-out;
+}
+
+.navbar ul a:hover{
+  color: violet;
+  transform: scale(0.7);
+  text-transform: unset;
+}
+.navbar ul li{
+  text-decoration: none;
+  list-style: none;
+  gap: 15px;
+}
+
+.main{
+  position: relative;
+  margin-top: 18%;
+  display: block;
+  max-width: 920px;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.main p{
+  position: relative;
+  left: 20px;
+  max-width: 500px;
+  text-align: justify;
+}
+
+@media screen  and (max-width:769px){
+
+  body{
+    overflow-y:scroll;
+  }
+  .navbar, .navbar ul li{
+    font-size: 15px;
+    padding-right: 25px;
+  }
+.main{
+  margin-top: 50%;
+}
+  .main h1{
+    font-size: 50px;
+    letter-spacing: 7px;
+  }
+  .main p{
+    left: 10px;
+  max-width: 500px;
+  font-size: 15px;
+  }
+}
+
+@media screen  and (max-width:769px){
+  .navbar, .navbar ul li{
+    font-size: 10px;
+    padding-right: 20px;
+  }
+
+  .navbar ul {
+    gap: 5px;
+  }
+.main h1{
+  font-size: 21px;
+  font-weight: 900;
+}
+.main p{
+  font-size: 14px;
+  max-width: 230px;
+}
+}

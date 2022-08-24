@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+hr {
+  background: black !important;
+}
+body
+{
+  background-image: 
+  background-size: cover;
+  color: #000;
+  display: table;
+  background-position: 50%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.cats{
+  width: 500px;
+  border: 5px solid orange;
+  text-align: center;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.lionss{
+  width: 500px;
+  margin-left: 15%;
+  margin-top: 2%;
+  border: 3px solid red;
+}
+
+table{
+  position: relative;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+
+}
+
+.one {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.two {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
